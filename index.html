@@ -5,32 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tela de Login</title>
+    <link rel="stylesheet" href="assets/css/estilo.css">
 </head>
 <body>
+    <h1>Sistema de Login</h1>
     <section class="caixa-login">
         <div class="img-login">
-            <img src="assets/image/senha.png" alt="">
+        <img src="assets/image/senha.png" alt="">
         </div>
 
         <h2>Logar no Sistema</h2>
 
         <form action="">
             <div class="campo">
-                <input type="text">
+                <input type="text" required="">
                 <label >Usuário</label>
             </div>
             <div class="campo">
-                <input type="password">
+                <input type="password"required="">
                 <label>Senha</label>
             </div>
             <input type="checkbox" checked="checked" class="checked">
-            <label class="checkbox2">Lembrar-me</label><br><br>
+            <label id="checkbox2">Lembrar-me</label><br><br>
             <button>Entrar</button>
             <p id="cadastro">Efetuar Cadastro!</p>
     
     
         </form>
+        
     </section>
+    <div></div>
 
     
 </body>
