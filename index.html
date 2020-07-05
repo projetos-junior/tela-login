@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,35 +8,46 @@
     <title>Tela de Login</title>
     <link rel="stylesheet" href="assets/css/estilo.css">
 </head>
+
 <body>
-    <h1>Sistema de Login</h1>
-    <section class="caixa-login">
-        <div class="img-login">
-        <img src="assets/image/senha.png" alt="">
-        </div>
-
-        <h2>Logar no Sistema</h2>
-
-        <form action="">
-            <div class="campo">
-                <input type="text" required="">
-                <label >Usuário</label>
+    <div class="caixa">
+        <section id="caixa_benvindo">
+            <div class="caixa_benvindo_titulo">
+                <h1>Bem Vindo</h1>
             </div>
-            <div class="campo">
-                <input type="password"required="">
-                <label>Senha</label>
+            <p>vivamus, congue amet et maecenas fringilla in et.
+                ipsum nec sociosqu gravida aenean feugiat senectus
+                etiam sodales eleifend
+            </p>
+            <div class="caixa_benvindo_img">
+                <img src="/assets/image/Asset 2@2x.png" alt="">
             </div>
-            <input type="checkbox" checked="checked" class="checked">
-            <label id="checkbox2">Lembrar-me</label><br><br>
-            <button>Entrar</button>
-            <p id="cadastro">Efetuar Cadastro!</p>
-    
-    
-        </form>
-        
-    </section>
-    <div></div>
+        </section>
+        <section id="caixa_login">
+            <h2>Login</h2>
+            <div class="caixa_login_midia_sociais">
+                <div class="caixa_login_midia_sociais_img"><img src="/assets/image/face.png" alt="Facebook"></div>
+                <div class="caixa_login_midia_sociais_img"><img src="/assets/image/insta.png" alt="Instagram"></div>
+                <div class="caixa_login_midia_sociais_img"><img src="/assets/image/google.png" alt="Google"></div>
+            </div>
 
-    
+            <form action="">
+                <div class="campo">
+                    <input type="text" required="">
+                    <label>Usuário</label>
+                </div>
+                <div class="campo">
+                    <input type="password" required="">
+                    <label>Senha</label>
+                </div>
+                <input type="checkbox" checked="checked" class="checked">
+                <label id="checkbox2">Lembrar-me</label><br><br>
+                <button>Entrar</button>
+                <p id="cadastro">Efetuar Cadastro!</p>
+            </form>
+
+        </section>
+    </div>
 </body>
+
 </html>
