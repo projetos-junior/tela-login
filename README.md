@@ -1,11 +1,11 @@
 # tela-login
 Criação de Tela de Login
 
-1º Criado o HTML da Tela de Login 
+º Tela de Login em html e css
 
-2º Criado o Css que vai receber uma melhor customização e um melhor design.
+º Criação do css basico da tela.
 
-3º reformulação da tela de login, a mesma ainda não esta funcional.
+º Criado novo layout, a mesma ainda não esta funcional.
 
 
 
